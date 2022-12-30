@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-Commerce Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section id="header">
+		<a href="#"><img src="logo.png" class="logo"></a>
+
+		<div>
+			<ul id="navBar">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a class="active" href="cart.html" id="shoppping_bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+				<a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+			</ul>
+		</div>
+		<div id="mobile">
+			<a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+			<i id="bar" class="fa-solid fa-bars"></i>
+		</div>
+	</section>
+
+	<section id="page_header" class="about_header">
+		<h2>#cart</h2>
+		<p>Add your coupon and SAVE upto 70% !</p>
+	</section>
+
+	<section id="cart" class="section_p1">
+		<table width="100%">
+			<thead>
+				<tr>
+					<td>REMOVE</td>
+					<td>IMAGE</td>
+					<td>PRODUCT</td>
+					<td>PRICE</td>
+					<td>QUANTITY</td>
+					<td>SUBTOTAL</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="#"><i class="far fa-times-circle"></i></a></td>
+					<td><img src="Images/Product/f1.png"></td>
+					<td>Men's Stylish Comfort Blue Blazer</td>
+					<td>₹1199</td>
+					<td><input type="number" value="1"></td>
+					<td>₹1199</td>
+				</tr>
+			</tbody>
+
+			<tbody>
+				<tr>
+					<td><a href="#"><i class="far fa-times-circle"></i></a></td>
+					<td><img src="Images/Product/f2.png"></td>
+					<td>Men's Stylish Comfort Red Blazer</td>
+					<td>₹1199</td>
+					<td><input type="number" value="1"></td>
+					<td>₹1199</td>
+				</tr>
+			</tbody>
+
+			<tbody>
+				<tr>
+					<td><a href="#"><i class="far fa-times-circle"></i></a></td>
+					<td><img src="Images/Product/f3.png"></td>
+					<td>Men's Stylish Comfort Pink Blazer</td>
+					<td>₹1199</td>
+					<td><input type="number" value="1"></td>
+					<td>₹1199</td>
+				</tr>
+			</tbody>
+
+		</table>
+	</section>
+
+	<section id="cart_add" class="section_p1">
+		<div id="coupon">
+			<h3>Apply Coupon</h3>
+			<div>
+				<input type="text" placeholder="Enter Your Coupon">
+				<button class="normal">Apply</button>
+			</div>
+		</div>
+
+		<div id="subTotal">
+			<h3>Cart Total</h3>
+			<table>
+				<tr>
+					<td>Cart Subtotal</td>
+					<td>₹3597</td>
+				</tr>
+				<tr>
+					<td>Shipping</td>
+					<td>Free</td>
+				</tr>
+				<tr>
+					<td><strong>Total</strong></td>
+					<td><strong>₹3597</strong></td>
+				</tr>
+			</table>
+			<button class="normal">Proceed to checkout</button>
+		</div>
+	</section>
+
+	<footer class="section_p1">
+		<div class="col">
+			<img src="logo.png" class="logo">
+			<h4>Contact Us</h4>
+			<p><strong>Address:</strong> Lakhotia Fabrics. 20 manak chowk Behind subhash chowk Khajuri bazar Indore</p>
+			<p><strong>Phone:</strong>+(91) 9425375452 , 9303235088</p>
+			<p><strong>Hours:</strong> 12:00 - 19:00 , Mon-Sat</p>
+			<div class="follow">
+				<h4>Follow us</h4>
+				<div class="socialmedia_icons">
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-pinterest-p"></i>
+					<i class="fa-brands fa-youtube"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="col">
+			<h4>About</h4>
+			<a href="#">About Us</a>
+			<a href="#">Delivery Information</a>
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms & Conditions</a>
+			<a href="#">Contact Us</a>
+		</div>
+
+		<div class="col">
+			<h4>My Account</h4>
+			<a href="#">Sign In</a>
+			<a href="#">View Cart</a>
+			<a href="#">My Wishlist</a>
+			<a href="#">Track My Order</a>
+			<a href="#">Help</a>
+		</div>
+
+		<div class="col install">
+			<h4>Install App</h4>
+			<p>From App Store or Google Play</p>
+			<div class="row">
+				<img src="Images/Pay/appStore.jpg">
+				<img src="Images/Pay/playStore.jpg">
+			</div>
+			<p>Secured Payment Gateways</p>
+			<img src="Images/Pay/paymentIcons.png">
+		</div>
+
+		<div class="copyright">
+			<p>© Website By Raghav Lakhotia - 2023</p>
+		</div>
+	</footer>
+
+	
+	<script src="https://kit.fontawesome.com/cc6a3fb4d1.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
